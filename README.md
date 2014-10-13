@@ -1,4 +1,4 @@
-buildparser
+BuildParser
 ===========
 
-Python package for parsing a build spec(s) from a config file
+A specification and parser for project build configuration.
