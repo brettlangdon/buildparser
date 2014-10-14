@@ -38,6 +38,7 @@ for build in builds:
 #### Properties
 * `type` - string
 * `options` - mixed
+
 #### Methods
 * `__init__(self, type, options)`
 * `__repr__(self)`
@@ -48,6 +49,7 @@ for build in builds:
 ### Script(object)
 #### Properties
 * `commands` - list
+
 #### Methods
 * `__init__(self, commands)`
 * `__repr__(self)`
@@ -63,6 +65,7 @@ for build in builds:
 * `after_build` - Script
 * `after_success` - Script
 * `after_failure` - Script
+
 #### Methods
 * `__init__(self, env, before_build, build, after_build, after_success, after_failure)`
 * `__repr__(self)`
