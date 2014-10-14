@@ -35,8 +35,10 @@ for build in builds:
 ## API
 
 ### Environment(object)
+#### Properties
 * `type` - string
 * `options` - mixed
+#### Methods
 * `__init__(self, type, options)`
 * `__repr__(self)`
 * `as_dict(self)`
@@ -44,7 +46,9 @@ for build in builds:
 * `as_yaml(self)`
 
 ### Script(object)
+#### Properties
 * `commands` - list
+#### Methods
 * `__init__(self, commands)`
 * `__repr__(self)`
 * `as_dict(self)`
@@ -52,12 +56,14 @@ for build in builds:
 * `as_yaml(self)`
 
 ### Build(object)
+#### Properties
 * `env` - Environment
 * `before_build` - Script
 * `build` - Script
 * `after_build` - Script
 * `after_success` - Script
 * `after_failure` - Script
+#### Methods
 * `__init__(self, env, before_build, build, after_build, after_success, after_failure)`
 * `__repr__(self)`
 * `as_dict(self)`
