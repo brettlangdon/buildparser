@@ -1,4 +1,4 @@
 BuildParser
 ===========
 
-A specification and parser for project build configuration.
+A [specification](SPECIFICATION.md) and parser for project build configuration.
