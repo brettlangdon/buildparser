@@ -81,6 +81,16 @@ for build in builds:
 Look for an appropriate `name` file or directory in the directory `directory`
 and parse all possible build configurations found.
 
+`parse` defaults to looking for the following files:
+* `.build.yml`
+* `.build.yaml`
+* `.build.json`
+* `.build.ini`
+* `.build.cfg`
+
+or for the directory `.build` which contains one or many configuration files
+(name doesn't have to be "build").
+
 ## parse_directory(dir_name)
 *returns*: list
 
