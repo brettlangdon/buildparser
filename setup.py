@@ -14,7 +14,7 @@ setup(
     packages=find_packages(),
     license="MIT",
     install_requires=[
-        "PyYAML==3.11",
+        "PyYAML==5.4",
     ],
     classifiers=[
         "Intended Audience :: Developers",
